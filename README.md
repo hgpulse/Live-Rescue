@@ -2,6 +2,8 @@
 CS50 final Project web track MVP: Interactive map for rescue team
 Using Angular, Mapbox and Firebase
 
+Project presentation: https://youtu.be/T2voOBuGtZI
+
 # HG Live Rescue
 
 HG Live Rescue is a web application that allows rescue professionals to access realtime location from native applications (gps Tracking). The Goal of the app is to assist, unify and syncronize all the professional actors to save lifes and improve the communication efficency.
