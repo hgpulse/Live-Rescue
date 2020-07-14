@@ -1,6 +1,6 @@
 # Live-Rescue
 CS50 final Project web track MVP: Interactive map for rescue team
-Using Angular, Mapbox and firebase
+Using Angular, Mapbox and Firebase
 
 # HG Live Rescue
 
