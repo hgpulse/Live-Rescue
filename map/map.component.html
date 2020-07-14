@@ -1,0 +1,22 @@
+<div id='map' class='map pad2'>Map</div>
+<div class="info-box">
+  <div id="info">
+    <h1 class="mat-display-1">Live Activities</h1>
+    
+      <input type="text" class="form-control" placeholder="Name" aria-label="name" aria-describedby="basic-addon2" [(ngModel)]="name">
+      <input type="text" class="form-control" placeholder="Support" aria-label="support" aria-describedby="basic-addon2" [(ngModel)]="support">
+      <input type="text" class="form-control" placeholder="Color" aria-label="color" aria-describedby="basic-addon2" [(ngModel)]="color">
+      <input type="text" class="form-control" placeholder="Phone Number" aria-label="phoneNumber" aria-describedby="basic-addon2" [(ngModel)]="phoneNumber">
+      <input type="text" class="form-control" placeholder="Message" aria-label="message" aria-describedby="basic-addon2" [(ngModel)]="message">
+    
+      <div *ngFor="let marker of markers | async">
+        <button type="button" class="btn btn-primary" (click)="flyTo(marker)">{{ marker.properties.name }}</button>
+        <button type="button" class="btn btn-success" (click)="flyTo(marker)">{{ marker.properties.color }} {{ marker.properties.support }}</button>
+        <button type="button" class="btn btn-warning" (click)="onClickMe()">Call</button>
+        <button type="button" class="btn btn-danger" (click)="removeMarker(marker)">Del</button>
+        
+      </div>
+    
+  </div>
+  <div id="directions"></div>
+</div>
