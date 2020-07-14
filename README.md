@@ -4,6 +4,14 @@ Using Angular, Mapbox and Firebase
 
 Project presentation: https://youtu.be/T2voOBuGtZI
 
+Technologies:
+
+- Angular 9 framework
+- Authentification material using ngx-auth-firebaseui
+- Bootstrap
+- Mapbox 
+- Firebase realtime database
+
 # HG Live Rescue
 
 HG Live Rescue is a web application that allows rescue professionals to access realtime location from native applications (gps Tracking). The Goal of the app is to assist, unify and syncronize all the professional actors to save lifes and improve the communication efficency.
