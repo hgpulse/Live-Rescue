@@ -21,7 +21,7 @@ Restricted Web access.
 
 # Support
 
-email: hugogaluppo@gmail.com
+email: githubcontact.duckling667@passmail.net
 
 # Authors and acknowledgment
 
